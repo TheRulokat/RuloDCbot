@@ -53,7 +53,7 @@ Eğer bot düzgün çalışmıyorsa, aşağıdaki adımları kontrol edin:
 - 📲 Telegram botunun hedef gruba veya kanala mesaj gönderebildiğini kontrol edin.
 
 ## 🤝 Katkıda Bulunma
-Sorularınız veya geri bildirimleriniz için bana Discord üzerinden ulaşabilirsiniz: ## the.rulokat
+Sorularınız veya geri bildirimleriniz için bana Discord üzerinden ulaşabilirsiniz: the.rulokat
 
 ## 📜 Lisans
 Bu proje MIT lisansı ile lisanslanmıştır. 📝
