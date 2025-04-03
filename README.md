@@ -1,118 +1,122 @@
-# Discord-Telegram Duyuru Botu
+# 🚀 Discord-Telegram Duyuru Botu
+![Untitled](https://github.com/user-attachments/assets/acaa660f-d3bb-47a2-9689-4245180f508d)
 
-Bu proje, belirlenen bir Discord kanalındaki mesajları otomatik olarak bir Telegram grubuna veya kanalına ileten bir bottur. Hem Discord hem de Telegram botlarını entegre eden bu sistem, duyuruların farklı platformlara eş zamanlı aktarılmasını sağlar.
+Bu proje, belirlenen bir Discord kanalındaki mesajları otomatik olarak bir Telegram grubuna veya kanalına ileten bir bottur. Hem Discord hem de Telegram botlarını entegre eden bu sistem, duyuruların farklı platformlarda eş zamanlı paylaşılmasını sağlar. 📢
 
-## Özellikler
-- Belirlenen bir Discord kanalındaki mesajları algılar.
-- Bu mesajları Telegram kanalına veya grubuna gönderir.
-- Telegram botu temel komutları destekler (örn. `/start`).
-- Çevre değişkenleri ile güvenli yapılandırma sağlar.
+## ⭐ Özellikler
+- 🔍 Belirlenen bir Discord kanalındaki mesajları izler.
+- 🔄 Bu mesajları otomatik olarak belirtilen Telegram kanalına veya grubuna iletir.
+- 📝 `/start` gibi temel Telegram bot komutlarını destekler.
+- 🔒 API anahtarlarını ve yapılandırmayı güvenli bir şekilde yönetmek için çevre değişkenlerini kullanır.
 
-## Gereksinimler
-Bu botu çalıştırmak için aşağıdaki paketlerin sisteminizde yüklü olması gerekmektedir:
+## 📌 Gereksinimler
+Bu botu çalıştırmak için aşağıdaki bağımlılıkların kurulu olması gerekmektedir:
 
-- Python 3.8+
-- `discord.py`
-- `aiogram`
-- `aiohttp`
-- `python-dotenv`
+- 🐍 Python 3.8+
+- 🤖 `discord.py`
+- 🤖 `aiogram`
+- 🌐 `aiohttp`
+- 🛠️ `python-dotenv`
 
-Gerekli bağımlılıkları yüklemek için:
+Gerekli bağımlılıkları yüklemek için aşağıdaki komutu çalıştırın:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Kurulum
-1. Bu projeyi klonlayın:
+## 🛠️ Kurulum
+1. 📂 Bu projeyi klonlayın:
    ```bash
    git clone https://github.com/kullaniciadi/discord-telegram-bot.git
    cd discord-telegram-bot
    ```
-2. Bir `.env` dosyası oluşturun ve aşağıdaki bilgileri ekleyin:
+2. 📄 Proje dizininde bir `.env` dosyası oluşturun ve aşağıdaki bilgileri ekleyin:
    ```ini
-   DISCORD_TOKEN=discord_bot_token
-   TELEGRAM_BOT_TOKEN=telegram_bot_token
+   DISCORD_TOKEN=discord_bot_tokeniniz
+   TELEGRAM_BOT_TOKEN=telegram_bot_tokeniniz
    TELEGRAM_CHAT_ID=telegram_chat_id
    DUYURU_KANAL_ID=discord_kanal_id
    ```
-3. Botu başlatın:
+3. ▶️ Botu başlatın:
    ```bash
    python bot.py
    ```
 
-## Çalışma Mantığı
-- Discord botu, belirlenen kanalın mesajlarını dinler.
-- Eğer mesaj, botun çalıştığı kanal üzerinden gelirse, içerik alınır ve Telegram API kullanılarak belirlenen Telegram kanalına/grubuna gönderilir.
-- Telegram botu, `/start` komutu ile çalıştığını doğrulayabilir.
+## 🔄 Çalışma Mantığı
+- 🏗️ Discord botu, belirlenen kanalın mesajlarını dinler.
+- 📩 Bir mesaj algılandığında, içeriği alınır ve Telegram API aracılığıyla belirtilen Telegram grubuna veya kanalına iletilir.
+- ✅ Telegram botu, çalıştığını doğrulamak için `/start` komutuna yanıt verebilir.
 
-## Hata Ayıklama
-Eğer bot düzgün çalışmıyorsa:
-- `.env` dosyanızın doğru bilgiler içerdiğinden emin olun.
-- Discord botunun doğru izinlere sahip olduğundan emin olun.
-- Telegram botunun ilgili gruba veya kanala mesaj gönderebildiğini kontrol edin.
+## 🛠️ Hata Ayıklama
+Eğer bot düzgün çalışmıyorsa, aşağıdaki adımları kontrol edin:
+- 📌 `.env` dosyanızın doğru API anahtarlarını ve kanal/grup kimliklerini içerdiğinden emin olun.
+- 🔑 Discord botunun belirtilen kanaldan mesajları okuyabilmesi için gerekli izinlere sahip olduğundan emin olun.
+- 📲 Telegram botunun hedef gruba veya kanala mesaj gönderebildiğini kontrol edin.
 
-## Katkıda Bulunma
-Bu projeye katkıda bulunmak için pull request gönderebilir veya yeni özellikler önerebilirsiniz.
+## 🤝 Katkıda Bulunma
+Bu projeye katkıda bulunmak isterseniz, yeni özellikler önerebilir veya bir pull request gönderebilirsiniz. 🚀
 
-## Lisans
-Bu proje MIT lisansı ile lisanslanmıştır.
----------------------------------------------------------------------------------------------------------------------------------------------
-# Discord-Telegram Announcement Bot
+## 📜 Lisans
+Bu proje MIT lisansı ile lisanslanmıştır. 📝
 
-This project is a bot that automatically forwards messages from a specified Discord channel to a Telegram group or channel. By integrating both Discord and Telegram bots, this system ensures real-time announcement synchronization across platforms.
+---
 
-## Features
-- Listens to messages in a specified Discord channel.
-- Sends these messages to a Telegram channel or group.
-- Supports basic Telegram bot commands (e.g., `/start`).
-- Uses environment variables for secure configuration.
+# 🚀 Discord-Telegram Announcement Bot
+![Untitled](https://github.com/user-attachments/assets/1100ec8e-692c-4dc6-9a70-f906dce1ce31)
 
-## Requirements
-To run this bot, you need the following dependencies installed:
+This project is a bot that automatically forwards messages from a specified Discord channel to a Telegram group or channel. By integrating both Discord and Telegram bots, this system ensures seamless, real-time announcement synchronization across platforms. 📢
 
-- Python 3.8+
-- `discord.py`
-- `aiogram`
-- `aiohttp`
-- `python-dotenv`
+## ⭐ Features
+- 🔍 Monitors messages in a designated Discord channel.
+- 🔄 Automatically forwards messages to a specified Telegram channel or group.
+- 📝 Supports basic Telegram bot commands, such as `/start`.
+- 🔒 Securely manages API tokens and configuration using environment variables.
 
-To install the required dependencies:
+## 📌 Requirements
+To run this bot, ensure you have the following dependencies installed:
+
+- 🐍 Python 3.8+
+- 🤖 `discord.py`
+- 🤖 `aiogram`
+- 🌐 `aiohttp`
+- 🛠️ `python-dotenv`
+
+To install the required dependencies, run:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Installation
-1. Clone this repository:
+## 🛠️ Installation
+1. 📂 Clone this repository:
    ```bash
    git clone https://github.com/username/discord-telegram-bot.git
    cd discord-telegram-bot
    ```
-2. Create a `.env` file and add the following information:
+2. 📄 Create a `.env` file in the project directory and add the following information:
    ```ini
-   DISCORD_TOKEN=discord_bot_token
-   TELEGRAM_BOT_TOKEN=telegram_bot_token
-   TELEGRAM_CHAT_ID=telegram_chat_id
-   DUYURU_KANAL_ID=discord_channel_id
+   DISCORD_TOKEN=your_discord_bot_token
+   TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+   TELEGRAM_CHAT_ID=your_telegram_chat_id
+   DUYURU_KANAL_ID=your_discord_channel_id
    ```
-3. Start the bot:
+3. ▶️ Start the bot:
    ```bash
    python bot.py
    ```
 
-## How It Works
-- The Discord bot listens for messages in a specified channel.
-- If a message is detected in that channel, its content is retrieved and sent to the designated Telegram group/channel using the Telegram API.
-- The Telegram bot can respond to the `/start` command to confirm it is running.
+## 🔄 How It Works
+- 🏗️ The Discord bot listens for new messages in a specified channel.
+- 📩 When a message is detected, its content is retrieved and forwarded to the designated Telegram group or channel via the Telegram API.
+- ✅ The Telegram bot provides basic functionality, such as responding to the `/start` command to confirm it is operational.
 
-## Debugging
-If the bot is not working properly:
-- Ensure your `.env` file contains the correct information.
-- Make sure the Discord bot has the necessary permissions.
-- Check if the Telegram bot has permission to send messages in the designated group or channel.
+## 🛠️ Troubleshooting
+If the bot is not functioning correctly, try the following steps:
+- 📌 Verify that your `.env` file contains the correct API tokens and chat/channel IDs.
+- 🔑 Ensure that the Discord bot has the necessary permissions to read messages from the designated channel.
+- 📲 Check whether the Telegram bot has permission to send messages in the target group or channel.
 
-## Contributing
-You can contribute to this project by submitting pull requests or suggesting new features.
+## 🤝 Contributing
+Contributions are welcome! If you have suggestions for new features or improvements, feel free to submit a pull request or open an issue. 🚀
 
-## License
-This project is licensed under the MIT License.
+## 📜 License
+This project is licensed under the MIT License. 📝
 
