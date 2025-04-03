@@ -1,5 +1,5 @@
 # 🚀 Discord-Telegram Duyuru Botu
-![Untitled](https://github.com/user-attachments/assets/acaa660f-d3bb-47a2-9689-4245180f508d)
+![Untitled](https://github.com/user-attachments/assets/235b3e26-000a-4b72-919d-5d30d4a75c9a)
 
 Bu proje, belirlenen bir Discord kanalındaki mesajları otomatik olarak bir Telegram grubuna veya kanalına ileten bir bottur. Hem Discord hem de Telegram botlarını entegre eden bu sistem, duyuruların farklı platformlarda eş zamanlı paylaşılmasını sağlar. 📢
 
@@ -38,7 +38,7 @@ pip install -r requirements.txt
    ```
 3. ▶️ Botu başlatın:
    ```bash
-   python bot.py
+   python RuloDCbot.py
    ```
 
 ## 🔄 Çalışma Mantığı
@@ -61,7 +61,7 @@ Bu proje MIT lisansı ile lisanslanmıştır. 📝
 ---
 
 # 🚀 Discord-Telegram Announcement Bot
-![Untitled](https://github.com/user-attachments/assets/1100ec8e-692c-4dc6-9a70-f906dce1ce31)
+![Untitled](https://github.com/user-attachments/assets/46bc6d0a-3524-4694-97f4-bc6ee6477bfc)
 
 This project is a bot that automatically forwards messages from a specified Discord channel to a Telegram group or channel. By integrating both Discord and Telegram bots, this system ensures seamless, real-time announcement synchronization across platforms. 📢
 
@@ -100,7 +100,7 @@ pip install -r requirements.txt
    ```
 3. ▶️ Start the bot:
    ```bash
-   python bot.py
+   python RuloDCbot.py
    ```
 
 ## 🔄 How It Works
