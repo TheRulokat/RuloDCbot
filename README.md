@@ -56,7 +56,7 @@ Bu projeye katkıda bulunmak için pull request gönderebilir veya yeni özellik
 
 ## Lisans
 Bu proje MIT lisansı ile lisanslanmıştır.
-
+---------------------------------------------------------------------------------------------------------------------------------------------
 # Discord-Telegram Announcement Bot
 
 This project is a bot that automatically forwards messages from a specified Discord channel to a Telegram group or channel. By integrating both Discord and Telegram bots, this system ensures real-time announcement synchronization across platforms.
