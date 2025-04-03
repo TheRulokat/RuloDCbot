@@ -53,7 +53,7 @@ Eğer bot düzgün çalışmıyorsa, aşağıdaki adımları kontrol edin:
 - 📲 Telegram botunun hedef gruba veya kanala mesaj gönderebildiğini kontrol edin.
 
 ## 🤝 Katkıda Bulunma
-Bu projeye katkıda bulunmak isterseniz, yeni özellikler önerebilir veya bir pull request gönderebilirsiniz. 🚀
+Sorularınız veya geri bildirimleriniz için bana Discord üzerinden ulaşabilirsiniz: the.rulokat
 
 ## 📜 Lisans
 Bu proje MIT lisansı ile lisanslanmıştır. 📝
@@ -115,7 +115,7 @@ If the bot is not functioning correctly, try the following steps:
 - 📲 Check whether the Telegram bot has permission to send messages in the target group or channel.
 
 ## 🤝 Contributing
-Contributions are welcome! If you have suggestions for new features or improvements, feel free to submit a pull request or open an issue. 🚀
+For any questions or feedback, feel free to contact me on Discord: the.rulokat 🎯
 
 ## 📜 License
 This project is licensed under the MIT License. 📝
